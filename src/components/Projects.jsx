@@ -46,16 +46,28 @@ function ProjectItem({ name, desc, tags, href, live, delay }) {
 
 const projects = [
   {
+    name: 'Nginxctl - Utility built over Nginx',
+    desc: 'Utility built to interact with Nginx over terminal UI and make config easy',
+    tags: ['Go','Bubble Tea'],
+    href: 'https://www.nginxctl.com/', live: true,
+  },
+  {
+    name: 'OnlyFunds - Centralized Exchange',
+    desc: 'Production styled centralized exchange implementing real time Spot and Perpetual trading, wallet management, and order matching',
+    tags: ["NodeJS","TS", "Websocket", "Redis", "MinIO", "Postgres", "React" , "Tailwind", "Redux"],
+    href: 'https://onlyfunds.in/', live: true,
+  },
+  {
     name: 'YouTube Collaboration Platform',
     desc: 'Platform for content creators — authorize uploads in one click. System downloads from editors, handles YouTube OAuth2, and queues concurrent uploads to protect bandwidth.',
-    tags: ['Go','OAuth 2.0','Google APIs','BullMQ','Signed URLs','Redis','Node.js'],
-    href: 'https://cumin.cloud/', live: true,
+    tags: ['OAuth 2.0','Google APIs','BullMQ','Signed URLs','Redis','Node.js'],
+    href: null, live: false,
   },
   {
     name: 'Real-Time Text Sharing',
     desc: 'Collaborative editor built from scratch. WebSocket-powered real-time sync with a custom text editor — no third-party editor dependencies.',
     tags: ['WebSockets','Node.js','Custom Editor'],
-    href: 'https://spaceshare.bhargavmule.com/', live: true,
+    href: 'https://spaceshare.bhargavmule.com', live: true,
   },
   {
     name: 'HTTP Reverse Proxy in Go',
